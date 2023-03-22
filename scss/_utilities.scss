@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+$kumbh: 'Kumbh Sans', sans-serif;
+$dark: hsl(227, 23%, 20%);
+
+$paragraph-margin-bottom: 0;
+$headings-margin-bottom: 0;
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-colors: (
+  "dark-cyan": hsl(184, 54%, 22%),
+  "blue": hsl(229, 23%, 23%),
+  "grayish-blue": hsl(227, 10%, 46%),
+  "dark-gray": hsl(0, 0%, 59%)
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: $kumbh;
+}
+img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+ul {
+  list-style-type: none;
+}

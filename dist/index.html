@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Profile Card Component</title>
+</head>
+<body class="min-vh-100 bg-dark-cyan d-flex flex-column justify-content-center align-items-center">
+  <div class="wrapper rounded-4 overflow-hidden shadow-lg">
+
+    <div class="cover">
+      <img src="img/bg-pattern-card.jpg" alt="image-cover">
+    </div>
+
+    <div class="bg-white text-center info">
+      <div class="rounded-circle overflow-hidden wrapper-profile">
+        <a href="https://www.facebook.com/dalibor.peric.86"><div class="rounded-circle overflow-hidden profile"></div></a>
+      </div>
+      <h2><a class="fw-bold" href="https://www.linkedin.com/in/dalibor-peric/">Dalibor Perić &nbsp</a><span class="text-grayish-blue">36</span></h2>
+      <h4>Junior Front-End Developer</h4>
+      <h3 class="text-grayish-blue">Bijeljina, B&H</h3>
+      
+      <div class="btn-group">
+        <button type="button" class="btn btn-dark-cyan dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          My latest projects
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item text-dark-cyan fw-bold" href="https://daliborbn.github.io/loopstudios-landing-page/">Loopstudios Page</a></li>
+          <li><a class="dropdown-item text-dark-cyan fw-bold" href="https://daliborbn.github.io/huddle-landing-page-curved/">Huddle Curved</a></li>
+          <li><a class="dropdown-item text-dark-cyan fw-bold" href="https://brilliant-mousse-825d7f.netlify.app">Clipboard Page</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item text-dark-cyan fw-bold" href="https://github.com/DaliborBn">My GitHub Profile</a></li>
+        </ul>
+      </div>
+      
+      <h6>My projects are created with junior knowledge of HTML, CSS, Tailwind CSS, JavaScript, Bootstrap & SASS.</h6>
+    </div>
+
+    <div class="bg-white w-100 stats">
+      <ul class="d-flex justify-content-around align-items-center mb-0">
+        <li class="fw-bold text-center text-blue">80K<span class="d-block text-grayish-blue fw-normal">Followers</span></li>
+        <li class="fw-bold text-center text-blue">803K<span class="d-block text-grayish-blue fw-normal">Likes</span></li>
+        <li class="fw-bold text-center text-blue">1.4K<span class="d-block text-grayish-blue fw-normal">Photos</span></li>
+      </ul>
+    </div>
+
+  </div>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
