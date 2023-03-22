@@ -8737,7 +8737,7 @@ ul {
   .wrapper-profile .profile {
     width: 100%;
     height: 100%;
-    background-image: url("../dist/img/image-dalibor.jpg");
+    background-image: url("img/image-dalibor.jpg");
     background-position: center;
     background-size: cover;
     transition: all ease 0.5s; }
