@@ -8706,8 +8706,6 @@ ul {
     color: #272c3f;
     text-decoration: none;
     transition: all ease 0.5s; }
-    .info h2 a:hover, .info .h2 a:hover {
-      color: #085a5a; }
   .info span {
     font-size: 2rem; }
   .info h3, .info .h3 {
@@ -8732,8 +8730,6 @@ ul {
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%); }
-  .wrapper-profile:hover .profile:before {
-    opacity: 1; }
   .wrapper-profile .profile {
     width: 100%;
     height: 100%;
@@ -8741,9 +8737,6 @@ ul {
     background-position: center;
     background-size: cover;
     transition: all ease 0.5s; }
-    .wrapper-profile .profile:hover {
-      transform: rotate(8deg) scale(1.05);
-      cursor: pointer; }
   .wrapper-profile .profile::before {
     content: '';
     position: absolute;
@@ -8778,3 +8771,14 @@ ul {
     width: 18.5rem; }
     .btn-group .dropdown-menu a {
       font-size: 1.5rem; }
+    .btn-group .dropdown-menu a:active {
+      background-color: transparent; }
+
+@media (hover: hover) {
+  .info h2 a:hover, .info .h2 a:hover {
+    color: #085a5a; }
+  .wrapper-profile:hover .profile:before {
+    opacity: 1; }
+  .wrapper-profile .profile:hover {
+    transform: rotate(8deg) scale(1.05);
+    cursor: pointer; } }
